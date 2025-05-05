@@ -48,6 +48,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             BasicComposeAppTheme {
+                SearchBar()
             }
         }
     }
@@ -92,10 +93,7 @@ fun AlignYourBodyRow(
     }
 }
 
-@Composable
-fun FavoriteCollectionCard() {
 
-}
 
 @Composable
 fun AlignYourBody(
